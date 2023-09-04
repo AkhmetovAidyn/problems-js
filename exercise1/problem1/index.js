@@ -1,6 +1,7 @@
-function numOfDigits(int) {
+function numOfDigits(num) {
   // Your code
-  return int.toString().length;
+  const numStr = Math.abs(num).toString();
+  return numStr.length;
 }
 
 
